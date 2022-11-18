@@ -44,6 +44,15 @@ export default function Profile() {
                 </div>
                 
                 <div className='bg-15present bg-no-repeat bg-right h-[61px] w-[61px]'></div>
+
+                
+            </div>
+            <div className='text-[#000000] text-[11px] font-bold font-openBold'>
+                Factoring an inflation rate of<h1 className='text-[#FE5000]'> 4.5 %</h1> 
+            </div>
+            <div className='text-[#909090] text-[8px] font-normal font-mont '>
+            Inflation rate is considered as at january 2020 <br/> according to Central bank of Sri lanka
+
             </div>
           </div>
 

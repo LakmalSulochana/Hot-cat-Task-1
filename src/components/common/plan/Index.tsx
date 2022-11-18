@@ -22,7 +22,9 @@ export default function Plan() {
           Selected protection Add-ons
           </div >
 
-          <div className='pt-2 pl-6 font-open font-semibold text-[#555555] text-[14px]'>Health 360</div>
+          <div className='pt-2 pl-6 font-open font-semibold text-[#555555] text-[14px]'>Health 360 
+          <div className='pg-helth w-[20] h-[19]'></div>
+          </div>
           <div className='pt-2 pl-6 font-open font-semibold text-[#555555] text-[14px]'>Waiver of premium</div>
           <div className='pt-2 pl-6 font-open font-semibold text-[#555555] text-[14px]'>Suwamaga Benifit</div>
         </div>
@@ -31,6 +33,7 @@ export default function Plan() {
       </div>
       {/* last part */}
       <div className=' basis-2/6 rounded-tr-2xl rounded-br-2xl pl-16'>
+        <div></div>
         <div className='mt-5 pl-12 right-6' >
           <button className='bg-[#FF8F5B] text-[16px] text-[#FFFFFF] rounded-lg font-bold font-inter box-content h-10 w-[144px] '>
           Edit in DAT
@@ -44,10 +47,16 @@ export default function Plan() {
       <h1 className=' pt-4 pl-10 font-open text-[#707070] text-[14px] font-normal'>Total approx. Premium</h1>
        <h1 className=' pl-4 font-openBold text-[#000000] text-[32px] font-bold'>Rs. 122,000</h1>
       </div>
-      <div className='x-border h-[74px] w-[248px] p-4 bg-[#FF9C6F]'>
-        <h1 className=''>Need gap covered</h1>
+
+      
+      <div className='justify-around items-center flex flex-row x-border h-[74px] w-[248px] p-4 bg-[#FF9C6F] rounded-xl'>
+        <h1 className='font-openBold text-[#555555] text-[13px] font-bold'>Need gap covered</h1>
+
+        <div className='bg-65present bg-no-repeat bg-right h-[61px] w-[61px]'></div>
 
       </div>
+      
+     
         
       </div>
 

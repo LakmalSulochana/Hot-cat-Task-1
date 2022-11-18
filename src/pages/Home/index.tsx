@@ -5,7 +5,7 @@ import Profile from '../../components/common/profile/Index'
 export default function Home() {
   return (
     <div>
-        {/* <Plan/>  */}
+       <Plan/>  
         <Profile/>
         
     </div>

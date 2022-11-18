@@ -3,10 +3,57 @@ import React from 'react'
 export default function Profile() {
   return (
     <div>
-        <div className='flex flex-row'>
-          <div className='basis-1/6 flex flex-col space-y-4 bg-logo1 bg-cover bg-right bg-no-repeat bg-red-400'></div>
-          <div className='basis-2/4 flex flex-col space-y-4 bg-yellow-400'>2</div>
-          <div className='basis-2/4 flex flex-col space-y-4 bg-red-400'>3</div>
+        <div className='h-[100vh] w-[1244px] min-h-full flex flex-row '>
+          <div className='basis-20 flex flex-col space-y-4  bg-blue-400 bg-left-top pt-5 pl-2' >
+            <div className='h-[46px] bg-logo1 bg-[length:46px_46px]  bg-no-repeat '>
+
+            </div>
+          </div>
+
+
+          <div className='basis-2/4 flex flex-col space-y-4 bg-yellow-400'>
+            <h1 className='font-mont text-[#FFFF15F] opacity-[.67] text-[45px] font-bold'>2022</h1>
+            <div></div>
+            <h2 className='font-openBold text-[#000000] text-[64px] font-bold'>Protect My Income</h2>
+            <p className='font-open text-[#000000] text-[14px] font-normal'>
+            Find out how much you'll need to support  Dilu, Ruwan and Ruwani if you are <br/> not around. To work out the finances your family would need to fund them if<br/> you weren’t around use our handy dependent protection and liability <br/> calculator.
+            </p>
+            <div className='flex flex-row'>
+              <div className='basis-2/5 bg-green-400 flex flex-col space-y-4'>
+              <h1 className='font-open text-[#707070] text-[13px] font-normal'>
+              Total need
+              </h1>
+              <h1 className='font-openBold text-[#000000] text-[18px] font-bold'>
+              Rs. 19,200,000
+              </h1>
+              </div>
+              <div className='basis-4/5 bg-blue-400 flex flex-col space-y-4'>
+              <h1 className='font-open text-[#707070] text-[13px] font-normal'>
+              I have
+              </h1>
+              <h1 className='font-openBold text-[#000000] text-[18px] font-bold'>
+              Rs. 3,000,000
+              </h1>
+              </div>
+              
+            </div>
+            <div className='justify-around items-center flex flex-row x-border h-[74px] w-[248px] p-4 bg-[#FF9C6F] rounded-xl '>
+                <div>
+                <h1 className='text-[#555555] text-[13px] font-semibold'>Identified Need Gap</h1>
+                <h1 className='text-[#FE5000] text-[16px] font-bold'>Rs. 16,200,000</h1>
+                </div>
+                
+                <div className='bg-15present bg-no-repeat bg-right h-[61px] w-[61px]'></div>
+            </div>
+          </div>
+
+
+          <div className='basis-5/12 flex flex-col space-y-4 bg-red-400 font-openBold'>
+            
+            <div className='bg-artwork w-[448px] h-[422px]'>
+             
+            </div>
+          </div>
 
         </div>
         

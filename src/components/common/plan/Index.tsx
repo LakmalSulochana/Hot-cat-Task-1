@@ -29,13 +29,26 @@ export default function Plan() {
         
 
       </div>
-
-      <div className='bg-red-400 basis-2/6 rounded-tr-2xl rounded-br-2xl'>
-        <div className='mt-5'>
-          <button className='rounded-md'>
+      {/* last part */}
+      <div className=' basis-2/6 rounded-tr-2xl rounded-br-2xl pl-16'>
+        <div className='mt-5 pl-12 right-6' >
+          <button className='bg-[#FF8F5B] text-[16px] text-[#FFFFFF] rounded-lg font-bold font-inter box-content h-10 w-[144px] '>
           Edit in DAT
           </button>
         </div>
+        <div>
+       <h1 className=' pt-4 pl-4 font-open text-[#707070] text-[14px] font-normal'>Illustrated Matuarity at 10%</h1>
+       <h1 className=' font-openBold text-[#000000] text-[32px] font-bold'>Rs.5,000,000</h1>
+        </div>
+      <div>
+      <h1 className=' pt-4 pl-10 font-open text-[#707070] text-[14px] font-normal'>Total approx. Premium</h1>
+       <h1 className=' pl-4 font-openBold text-[#000000] text-[32px] font-bold'>Rs. 122,000</h1>
+      </div>
+      <div className='x-border h-[74px] w-[248px] p-4 bg-[#FF9C6F]'>
+        <h1 className=''>Need gap covered</h1>
+
+      </div>
+        
       </div>
 
     </div>

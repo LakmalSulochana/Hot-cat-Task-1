@@ -5,6 +5,9 @@ type PrivateProps={
   year:String
   topic:String
   description:String
+  totalNeed:String
+  HaveCost:String
+  IdentifiedNeed:String
   cover:String
   subData:any
 }
@@ -12,7 +15,7 @@ type PrivateProps={
 export default function Profile(props:PrivateProps) {
   return ( 
     <div className='flex flex-col'>
-      <div className='flex flex-row items-center  w-[1220px] '>
+      <div className='flex flex-row items-center  w-[1220px] h-[590px]'>
       
       <div className='h-[63vh] w-[1245px] min-h-full flex flex-row pt-4'>
         <div className='basis-20 flex flex-col space-y-4  bg-left-top pt-5 pl-2' >
@@ -26,18 +29,18 @@ export default function Profile(props:PrivateProps) {
           <div className='flex flex-row'>
             <div className='basis-2/5 flex flex-col space-y-4'>
               <h1 className='font-open text-[#707070] text-[13px] font-normal'>Total need</h1>
-              <h1 className='font-openBold text-[#000000] text-[18px] font-bold'> Rs. 19,200,000</h1>
+              <h1 className='font-openBold text-[#000000] text-[18px] font-bold'> {props.totalNeed}</h1>
             </div>
 
             <div className='basis-4/5  flex flex-col space-y-4'>
               <h1 className='font-open text-[#707070] text-[13px] font-normal'>I have</h1>
-              <h1 className='font-openBold text-[#000000] text-[18px] font-bold'>Rs. 3,000,000</h1>
+              <h1 className='font-openBold text-[#000000] text-[18px] font-bold'>{props.HaveCost}</h1>
             </div>      
         </div>
         <div className='justify-around items-center flex flex-row x-border h-[74px] w-[248px] p-4 bg-[#FF9C6F] rounded-xl '>
           <div>
             <h1 className='text-[#555555] text-[13px] font-semibold'>Identified Need Gap</h1>
-            <h1 className='text-[#FE5000] text-[16px] font-bold'>Rs. 16,200,000</h1>
+            <h1 className='text-[#FE5000] text-[16px] font-bold'>{props.IdentifiedNeed}</h1>
           </div>
                 
           <div className='bg-15present bg-no-repeat bg-right h-[61px] w-[61px]'></div>      
@@ -47,7 +50,7 @@ export default function Profile(props:PrivateProps) {
           <div className='text-[#909090] text-[8px] font-normal font-mont'>
             Inflation rate is considered as at january 2020 <br/> according to Central bank of Sri lanka
           </div>
-          <div className='text-[#909090] text-[18px] font-normal font-open underline underline-offset-1 relative pt-5'>
+          <div className='text-[#909090] text-[18px] font-normal font-open underline underline-offset-1 relative pt-1'>
             Recommanded Products
           </div>
         </div>
@@ -56,8 +59,9 @@ export default function Profile(props:PrivateProps) {
         </div>
       </div> 
     </div>
-    <div className='pl-4 mb-4'>
-      <Plan data={props.subData} description={''} cover={''} topic={''} miniTopic={''} approxRuppe={''} mantuarityRupee={''} points={[]} precentageRoundImg={''}/>
+    <div className='pl-4 '>
+      <Plan data={props.subData} description={''} cover={''} topic={''} miniTopic={''} approxRuppe={''} mantuarityRupee=
+          {''} points={[]} precentageRoundImg={''}/>
     </div>
     
 

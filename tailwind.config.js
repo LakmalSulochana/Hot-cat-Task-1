@@ -13,7 +13,6 @@ module.exports = {
         'artwork':"url('assets/img/Artwork (1).png')",
         '15present':"url('assets/icn/15present.png')",
         '65present':"url('assets/icn/65present.png')",
-        'helth':"url('src/assets/icn/heth.png')",
         'edit':"url('assets/icn/editIcn.png')",
         'share':"url('assets/icn/shareIcn.png')",
         'smartLife':"url('assets/img/smartLife.png')",
@@ -21,7 +20,9 @@ module.exports = {
         'helthImg':"url('assets/img/helthImg.png')",
         'ruwanImg':"url('assets/img/ruwanImg.png')",
         '85present':"url('assets/icn/85present.png')",
-        'last':"url('assets/img/last.png')"
+        'last':"url('assets/img/last.png')",
+        'helth':"url('assets/icn/helth.png')",
+        'defend':"url('assets/icn/defend.png')"
 
 
 

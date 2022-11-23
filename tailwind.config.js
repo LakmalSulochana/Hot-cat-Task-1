@@ -1,8 +1,16 @@
-/** @type {import('tailwindcss').Config} */
+const {screens} = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [ "./src/**/*.{js,jsx,ts,tsx}",
 ],
   theme: {
+    screens:{
+      t1:"768px",
+      t2:"1024px",
+      lp:"1440px",
+
+      ...screens
+    },
     extend: {
       backgroundImage: {
         'imageOne': "url('assets/img/_Family-Square-6x6-E-FINAL_7th-Mar 4.png')",

@@ -3,62 +3,61 @@ import { FillButton, OutLineButton } from '../common/button/Index'
 
 
 export default function MainPage() {
-  return (
-    <div className='flex w-full h-full'>
-        <div className='min-h-full flex flex-row '>
-            <div className='bg-yellow-400 basis1/2'>
-                <div className=' font-open text-[#707070] text-[43px] font-light tracking-[.005em] '>
-                    <h1 className='pt-6 mt-6 '>Dear, Mr. Eshan 👋</h1>
+  return ( 
+
+        <div className=' max-w-full  flex flex-row justify-around h-[100vh] m-2 bg-blue-400 ' >
+            <div className=''>
+                <div className=' font-open text-[#707070] text-[43px] font-light tracking-[.005em] t1:text-[23px] lp:text-[43px]  '>
+                    <h1 className='pt-8 mt-10 '>Dear, Mr. Eshan 👋</h1>
                 </div>
 
-                <div className='font-mont text-[#000000] text-[65px] font-bold leading-none pl-4' style={{marginTop:"-10px"}}>
-                    Now you have a <br/> better <br/> understanding of <br/> your financial <br/> requiremnts of <br/> your future aaaa aaaaa aaaa <br/> sssssss
+                <div className='font-mont text-[#000000] text-[65px] font-bold leading-none md:text-[40px] lg:text-[65px] md:pt-1' style={{marginTop:"-10px"}}>
+                    Now you have a <br/> better <br/> understanding of <br/> your financial <br/> requiremnts of <br/> your future
                 </div>
 
-                <div className='flex flex-row pl-4 '>
-                    <div className='basis-2/6'>
-                        <h1 className='font-open text-[#969BAB] text-[16px] font-normal'>Name </h1>
-                        <h1 className='font-openBold text-[#000000] text-[16px] font-bold'>Eshan De Silva </h1>
+                <div className='flex flex-row pt-3 '>
+                    <div className='lp:basis-2/5 t1:basis-2/5'>
+                        <h1 className='font-open text-[#969BAB] lp:text-[16px] t1:text-[14px] font-normal'>Name </h1>
+                        <h1 className='font-openBold text-[#000000] lp:text-[16px] t1:text-[14px] font-bold'>Eshan Dessss Silvaaaaa </h1>
                     </div>
                     <div className='basis-2/6'>
-                        <h1 className='font-open text-[#969BAB] text-[16px] font-normal'>Date </h1>
-                        <h1 className='font-openBold text-[#000000] text-[16px] font-bold'>2005-08-04</h1>
+                        <h1 className='font-open text-[#969BAB] lp:text-[16px] t1:text-[14px] font-normal'>Date </h1>
+                        <h1 className='font-openBold text-[#000000] lp:text-[16px] t1:text-[14px] font-bold'>2005-08-04</h1>
                     </div>
                     <div className='basis-2/6'>
-                        <h1 className='font-open text-[#969BAB] text-[16px] font-normal'>Income </h1>
-                        <h1 className='font-openBold text-[#000000] text-[16px] font-bold'>Rs. XXXX</h1>
+                        <h1 className='font-open text-[#969BAB] lp:text-[16px] t1:text-[14px] font-normal'>Income </h1>
+                        <h1 className='font-openBold text-[#000000] lp:text-[16px] t1:text-[14px] font-bold'>Rs. XXXX</h1>
                     </div>
+                   
                 </div>
+                <div className=' self-center text-[#FE5000] text-[14px] font-inter font-bold relative'>Scroll Down</div> 
+                
+            </div >
+
+            <div className='flex flex-col'>
+                <div className='lp:pt-6'>
+
+                    <div className='lp:flex lp:flex-row-reverse lp:space-x-4 lp:space-x-reverse '>
+                    <FillButton border="none" color="#FE5000" height ="58px" radius = "37px" width = "133px" >
+                        <h1 className='font-mont text-[#FFFFFF] text-[14px] font-bold'>Move to DAT</h1>
+                    </FillButton>
+                    <OutLineButton border="solid" color="" height = "58px" radius = "37px" width = "133px" >
+                        <h1 className='font-mont text-[#707070] text-[14px] font-bold'>Share</h1> 
+                    </OutLineButton>
+                    <OutLineButton  border="solid" color="" height = "58px" radius = "37px" width = "133px" >
+                        <h1 className='font-mont text-[#707070] text-[14px] font-bold'>Edit</h1> 
+                    </OutLineButton>
+                   
+                    </div>
+                    
+                </div> 
+
+                <div className='bg-imageOne bg-no-repeat bg-center  t1:bg-cover t1:h-[300px] t1:w-[300px] lp:h-[484px] lp:w-[541px] mt-4 '></div>
             </div>
-
-
-            <div className='space-y-4  pt-24 pl-5 bg-green-400'>
-                <div className='flex flex-row pl-16 ' style={{marginTop:"-80px"}}>
-                    <div className=' pl-8'>
-                        <OutLineButton border="solid" color="" height = "58px" radius = "37px" width = "133px" >
-                    <h1 className='font-mont text-[#707070] text-[14px] font-bold'>Edit</h1>
-                            
-                        </OutLineButton>
-                    </div>
-                    <div className=' pl-6'>
-                        <button className=' pl-5 justify-around items-center flex flex-row border h-[58px] w-[133px] border-[#FE5000] rounded-full font-mont text-[#FE5000] text-[14px] font-bold'>
-                            share
-                            <div className='bg-share bg-no-repeat bg-center h-[61px] w-[61px]'></div>
-                        </button>
-                    </div>
-                    <div className='pl-6 ' >
-                            <FillButton border="none" color="#FE5000" height = "58px" radius = "37px" width = "133px" >
-                            <h1 className='font-mont text-[#FFFFFF] text-[14px] font-bold'>Move to DAT</h1>
-                            </FillButton>
-                    </div>
-                </div>
-
-                <div className='bg-imageOne bg-no-repeat bg-center h-[484px] w-[541px] pt-3'></div>
-            </div>
-        
-        </div>
-        <div className=' self-center text-[#FE5000] text-[14px] font-inter font-bold'>Scroll down</div>
     </div>
+        
+
+    
     
   )
 }

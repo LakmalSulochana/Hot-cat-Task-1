@@ -6,7 +6,7 @@ import {data} from '../../config/data';
 export default function Home() {
     return (
         <div className=' bg-[#FAFBFC] '>
-            {/* <MainPage/> */}
+          <MainPage/> 
           <div
                 className='flex flex-col items-center '>               
                 <div>

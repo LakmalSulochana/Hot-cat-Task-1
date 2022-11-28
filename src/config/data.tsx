@@ -1,3 +1,5 @@
+import img from "../assets/img/family1.png"
+
 export const data = [
     {
         firstname: "2022",

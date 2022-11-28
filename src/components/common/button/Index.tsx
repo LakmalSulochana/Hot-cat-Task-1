@@ -48,6 +48,7 @@ interface Props {
       
       style={{
          backgroundColor: color,
+         borderBlockColor:color,
          border,
          borderRadius: radius,
          height,

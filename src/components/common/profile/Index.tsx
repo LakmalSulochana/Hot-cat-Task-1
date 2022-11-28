@@ -1,5 +1,6 @@
 import React from 'react'
 import Plan from '../plan/Index'
+import logo1 from '../../../assets/icn/logo1.png'
 
 type PrivateProps = {
     year: String
@@ -8,7 +9,7 @@ type PrivateProps = {
     totalNeed: String
     HaveCost: String
     IdentifiedNeed: String
-    cover: String
+    cover: any
     subData: any
 }
 
@@ -19,7 +20,9 @@ export default function Profile(props: PrivateProps) {
             <div className='w-[100vw] flex flex-row t1:h-[73vh] t2:h-[85vh] lp:h-[97vh]'>
             
             <div className='lp:basis-14 t1:basis-1/5 t2:basis-24 flex flex-col space-y-4  bg-left-top lp:pt-6 t1:pt-4 pl-2'>
-                <div className='lp:h-[60px] lp:w-20 bg-logo1 lp:bg-[length:60px_60px] t1:h-[46px] t1:w-15 t1:bg-[length:46px_46px] bg-no-repeat '></div>
+                <div className='lp:h-[60px] lp:w-20 bg-logo1 lp:bg-[length:60px_60px] t1:h-[46px] t1:w-15 t1:bg-[length:46px_46px] bg-no-repeat '>
+                    <img src="" alt="" />
+                </div>
             </div>
 
             <div className='flex flex-col lp:pl-1 t1:pl-3'>
@@ -39,7 +42,9 @@ export default function Profile(props: PrivateProps) {
                         </div>
                         
                     </div>
-                    <div className={`${props.cover}  bg-no-repeat t1:bg-contain lp:bg-contain t1:w-[320px] t1:h-[320px] t2:w-[448px] t2:h-[422px] lp:w-[448px] lp:h-[422px] mt-6 t1:basis-3/4  t1:ml-10 lp:absolute lp:right-14 `}></div>
+                    <div className={`${props.cover}  bg-no-repeat t1:bg-contain lp:bg-contain t1:w-[320px] t1:h-[320px] t2:w-[448px] t2:h-[422px] lp:w-[448px] lp:h-[422px] mt-6 t1:basis-3/4  t1:ml-10 lp:absolute lp:right-14 `}>
+                        
+                    </div>
                 </div>  
                 <div className='flex flex-row mr-5 lp:pt-5 relative '>
 

@@ -18,7 +18,7 @@ module.exports = {
         'family':"url('assets/img/family.png')",
         'logo1':"url('assets/icn/logo1.png')",
         '20x':"url('src/assets/icn/new.png')",
-        'artwork':"url('assets/img/Artwork (1).png')",
+        'artwork':"url('assets/img/family1.png')",
         '15present':"url('assets/icn/15present.png')",
         '65present':"url('assets/icn/65present.png')",
         'edit':"url('assets/icn/editIcn.png')",

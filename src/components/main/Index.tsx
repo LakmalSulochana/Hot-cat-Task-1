@@ -1,6 +1,6 @@
 import React from 'react'
 import {FillButton, OutLineButton} from '../common/button/Index'
-
+import imgOne from "../../assets/img/imgOne.png"
 
 export default function MainPage() {
     return (
@@ -22,7 +22,7 @@ export default function MainPage() {
                     <div className=' max-w-full flex flex-row justify-around t1:h-[60vh] t2:h-[90vh] lp:h-[100vh] ml-2 mr-2'>
             <div className=''>
                 <div
-                    className=' font-open text-[#707070] text-[43px] font-light tracking-[.005em] t1:text-[23px] lp:text-[43px]  '>
+                    className=' font-open text-[#707070] text-[43px] font-light tracking-[.005em] t1:text-[23px] t2:text-[27px] lp:text-[43px]  '>
                     <h1 className='pt-8 mt-10 '>Dear, Mr. Eshan 👋</h1>
                 </div>
 
@@ -56,7 +56,9 @@ export default function MainPage() {
 
             <div className='flex flex-col'>
              <div
-                    className='bg-imageOne bg-no-repeat bg-center t1:ml-10 t2:ml-2 t1:bg-cover t1:h-[300px] t1:w-[300px] t2:h-[370px] t2:w-[370px] lp:h-[484px] lp:w-[541px] mt-4 '></div>
+                    className='bg-no-repeat bg-center t1:ml-10 t2:ml-2 t1:bg-cover t1:h-[300px] t1:w-[300px] t2:h-[370px] t2:w-[370px] lp:h-[484px] lp:w-[541px] mt-4 '>
+                        <img src={imgOne} alt="" />
+                    </div>
             </div>
         </div>
         </div>

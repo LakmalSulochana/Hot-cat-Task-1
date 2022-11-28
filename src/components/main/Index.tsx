@@ -4,8 +4,22 @@ import {FillButton, OutLineButton} from '../common/button/Index'
 
 export default function MainPage() {
     return (
+        <div>
+            <div className='w-full'>
+            <div className='flex flex-row-reverse t1:space-x-3 t1:space-x-reverse t2:space-x-3 t2:space-x-reverse lp:space-x-8 lp:space-x-reverse t1:mt-3 t2:mt-3 lp:mt-3 lp:mr-24 t1:mr-6 t2:mr-18 '>
+                        <FillButton border="none" color="#FE5000" height="58px" radius="37px" width="133px">
+                            <h1 className='font-mont text-[#FFFFFF] text-[14px] font-bold'>Move to DAT</h1>
+                        </FillButton>
+                        <OutLineButton border="solid" color="" height="58px" radius="37px" width="133px">
+                            <h1 className='font-mont text-[#707070] text-[14px] font-bold'>Share</h1>
+                        </OutLineButton>
+                        <OutLineButton border="solid" color="" height="58px" radius="37px" width="133px">
+                            <h1 className='font-mont text-[#707070] text-[14px] font-bold'>Edit</h1>
+                        </OutLineButton>
 
-        <div className=' max-w-full flex flex-row justify-around h-[100vh] mt-2 ml-2 mr-2'>
+                    </div>
+            </div>
+                    <div className=' max-w-full flex flex-row justify-around t1:h-[60vh] t2:h-[90vh] lp:h-[100vh] ml-2 mr-2'>
             <div className=''>
                 <div
                     className=' font-open text-[#707070] text-[43px] font-light tracking-[.005em] t1:text-[23px] lp:text-[43px]  '>
@@ -36,31 +50,15 @@ export default function MainPage() {
                     </div>
 
                 </div>
-                <div className='text-[#FE5000] text-[14px] font-inter font-bold absolute left-1/2 transform -translate-x-1/2 translate-y-20'>Scroll Down</div>
+                <div className='text-[#FE5000] text-[14px] font-inter font-bold absolute left-1/2 transform -translate-x-1/2 t1:translate-y- t2:translate-y-32 lp:translate-y-28'>Scroll Down</div>
 
             </div>
 
             <div className='flex flex-col'>
-                <div className='lp:pt-6'>
-
-                    <div className='lp:flex lp:flex-row-reverse lp:space-x-4 lp:space-x-reverse '>
-                        <FillButton border="none" color="#FE5000" height="fixed" radius="37px" width="fixed">
-                            <h1 className='font-mont text-[#FFFFFF] text-[14px] font-bold'>Move to DAT</h1>
-                        </FillButton>
-                        <OutLineButton border="solid" color="" height="58px" radius="37px" width="133px">
-                            <h1 className='font-mont text-[#707070] text-[14px] font-bold'>Share</h1>
-                        </OutLineButton>
-                        <OutLineButton border="solid" color="" height="58px" radius="37px" width="133px">
-                            <h1 className='font-mont text-[#707070] text-[14px] font-bold'>Edit</h1>
-                        </OutLineButton>
-
-                    </div>
-
-                </div>
-
-                <div
-                    className='bg-imageOne bg-no-repeat bg-center  t1:bg-cover t1:h-[300px] t1:w-[300px] lp:h-[484px] lp:w-[541px] mt-4 '></div>
+             <div
+                    className='bg-imageOne bg-no-repeat bg-center t1:ml-10 t2:ml-2 t1:bg-cover t1:h-[300px] t1:w-[300px] t2:h-[370px] t2:w-[370px] lp:h-[484px] lp:w-[541px] mt-4 '></div>
             </div>
+        </div>
         </div>
 
 

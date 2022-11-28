@@ -26,8 +26,8 @@ export default function Plan({
       data
   }: PrivateProps) {
     return (<div>
-            <div className='flex flex-row w-[96vw] t1:ml-3 t2:ml-5 lp:ml-8 lp:h-[60vh] t1:h-[38vh] t2:h-[45vh] border-solid rounded-2xl border-[#FE5000] h-[376px] border-4 '>
-                <div className={`${data.cover} bg-cover bg-right bg-no-repeat basis-3/6 rounded-tl-2xl rounded-bl-2xl`}>
+            <div className='flex flex-row w-[96vw] t1:ml-3 t2:ml-5 lp:ml-8 lp:h-[53vh] t1:h-[43vh] t2:h-[45vh] border-solid rounded-2xl border-[#FE5000] h-[300px] border-4 '>
+                <div className={`${data.cover} bg-contain object-right bg-no-repeat basis-4/6 rounded-tl-2xl rounded-bl-2xl`}>
                 </div>
                 <div className=' t1:basis-4/6 t2:basis-4/6 lp:basis-4/6flex flex-col space-y-4'>
                     <div flex-col space-y-4>

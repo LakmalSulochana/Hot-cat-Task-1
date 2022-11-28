@@ -16,7 +16,7 @@ export default function Profile(props: PrivateProps) {
     return (
 
         <div className='flex flex-col'>
-            <div className='w-[100vw] flex flex-row h-[100vh]'>
+            <div className='w-[100vw] flex flex-row t1:h-[73vh] t2:h-[85vh] lp:h-[97vh]'>
             
             <div className='lp:basis-14 t1:basis-1/5 t2:basis-24 flex flex-col space-y-4  bg-left-top lp:pt-6 t1:pt-4 pl-2'>
                 <div className='lp:h-[60px] lp:w-20 bg-logo1 lp:bg-[length:60px_60px] t1:h-[46px] t1:w-15 t1:bg-[length:46px_46px] bg-no-repeat '></div>

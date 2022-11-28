@@ -16,7 +16,7 @@ export default function Profile(props: PrivateProps) {
     return (
 
         <div className='flex flex-col'>
-            <div className='w-[100vw] flex flex-row h-[100vh] bg-green-200 '>
+            <div className='w-[100vw] flex flex-row h-[100vh]'>
             
             <div className='lp:basis-14 t1:basis-1/5 t2:basis-24 flex flex-col space-y-4  bg-left-top lp:pt-6 t1:pt-4 pl-2'>
                 <div className='lp:h-[60px] lp:w-20 bg-logo1 lp:bg-[length:60px_60px] t1:h-[46px] t1:w-15 t1:bg-[length:46px_46px] bg-no-repeat '></div>
@@ -41,37 +41,45 @@ export default function Profile(props: PrivateProps) {
                     </div>
                     <div className={`${props.cover}  bg-no-repeat t1:bg-contain lp:bg-contain t1:w-[320px] t1:h-[320px] t2:w-[448px] t2:h-[422px] lp:w-[448px] lp:h-[422px] mt-6 t1:basis-3/4  t1:ml-10 lp:absolute lp:right-14 `}></div>
                 </div>  
-                <div className='flex flex-row mr-5 lp:pt-5 relative'>
-                    <div className='  justify-around items-center flex flex-row x-border h-[74px] w-[248px]  lp:h-[100px] lp:w-[320px] p-4 bg-[#FF9C6F] rounded-xl lp:mt-8 '>
+                <div className='flex flex-row mr-5 lp:pt-5 relative '>
+
+                   <div className='absolute t1:bottom-32 lp:top-10'>
+                   <div className='  justify-around items-center flex flex-row x-border t1:h-[74px] t1:w-[230px] lp:h-[100px] lp:w-[320px] p-4 bg-[#FF9C6F] rounded-xl lp:mt-8 '>
                         <div>
                             <h1 className='text-[#555555] lp:text-[20px] font-semibold'>Identified Need Gap</h1>
                             <h1 className='text-[#FE5000] lp:text-[19px] font-bold'>{props.IdentifiedNeed}</h1>
                         </div>
-                        <div className='bg-15present bg-no-repeat bg-right lp:h-[100px] lp:w-[100px]'></div>
+                        <div className='bg-15present bg-no-repeat bg-right t1:h-[80px] t1:w-[80px] lp:h-[100px] lp:w-[100px]'></div>
 
                     </div>  
-                   
-                    
+
+                   </div>
+                   {/* lp:pt-16 lp:mt-32 */}
                         
-               </div>    
-               <div className='text-[#000000] t1:text-[14px] lp:text-[19px] font-bold font-openBold lp:mt-5'>Factoring an inflation rate of 4.5 %</div>
+               </div>   
+               <div className='relative t1:bottom-20 lp:top-28 lp:mt-32'>
+
+               <div className='text-[#000000] t1:text-[14px] lp:text-[19px] font-bold font-openBold'>Factoring an inflation rate of 4.5 %</div>
                     <div className='text-[#909090] text-[12px] lp:text-[18px] font-normal font-mont'>Inflation rate is considered as at january 2020 <br/> according to Central bank of Sri lanka
                     </div>
                     <div className='text-[#909090] text-[18px] font-normal font-open underline underline-offset-1 relative mt-8'>Recommanded Products</div> 
                
-            </div>
+                </div>
+
+                </div> 
+               
  
-        </div>
-        <div className=' '>
-               <Plan data={props.subData} description={''} cover={''} topic={''} miniTopic={''} approxRuppe={''}
-                     mantuarityRupee=
-                         {''} points={[]} precentageRoundImg={''}/>
-           </div>
+                </div>
+                <div className=' '>
+                       <Plan data={props.subData} description={''} cover={''} topic={''} miniTopic={''} approxRuppe={''}
+                             mantuarityRupee=
+                                 {''} points={[]} precentageRoundImg={''}/>
+                   </div>
 
 
-        </div>
-        
-        
+                </div>
+
+
 
 
         // <div className='flex flex-col '>

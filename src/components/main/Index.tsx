@@ -5,7 +5,7 @@ import {FillButton, OutLineButton} from '../common/button/Index'
 export default function MainPage() {
     return (
 
-        <div className=' max-w-full flex flex-row justify-around h-[100vh] bg-blue-400 mt-2 ml-2 mr-2'>
+        <div className=' max-w-full flex flex-row justify-around h-[100vh] mt-2 ml-2 mr-2'>
             <div className=''>
                 <div
                     className=' font-open text-[#707070] text-[43px] font-light tracking-[.005em] t1:text-[23px] lp:text-[43px]  '>
@@ -36,7 +36,7 @@ export default function MainPage() {
                     </div>
 
                 </div>
-                <div className=' self-center text-[#FE5000] text-[14px] font-inter font-bold relative'>Scroll Down</div>
+                <div className='text-[#FE5000] text-[14px] font-inter font-bold absolute left-1/2 transform -translate-x-1/2 translate-y-20'>Scroll Down</div>
 
             </div>
 
@@ -44,7 +44,7 @@ export default function MainPage() {
                 <div className='lp:pt-6'>
 
                     <div className='lp:flex lp:flex-row-reverse lp:space-x-4 lp:space-x-reverse '>
-                        <FillButton border="none" color="#FE5000" height="58px" radius="37px" width="133px">
+                        <FillButton border="none" color="#FE5000" height="fixed" radius="37px" width="fixed">
                             <h1 className='font-mont text-[#FFFFFF] text-[14px] font-bold'>Move to DAT</h1>
                         </FillButton>
                         <OutLineButton border="solid" color="" height="58px" radius="37px" width="133px">

@@ -13,7 +13,6 @@ type PrivateProps = {
     points: Array<String>
 }
 
-
 export default function Plan({
       topic = "",
       description = "",
@@ -27,7 +26,8 @@ export default function Plan({
   }: PrivateProps) {
     return (<div>
             <div className='flex flex-row w-[96vw] t1:ml-3 t2:ml-5 lp:ml-8 lp:h-[53vh] t1:h-[43vh] t2:h-[45vh] border-solid rounded-2xl border-[#FE5000] h-[300px] border-4 '>
-                <div className={`${data.cover} bg-contain object-right bg-no-repeat basis-4/6 rounded-tl-2xl rounded-bl-2xl`}>
+                <div className={`bg-contain object-right bg-no-repeat basis-4/6 rounded-tl-2xl rounded-bl-2xl`}>
+                    <img src={data.cover} alt='sample'/>
                 </div>
                 <div className=' t1:basis-4/6 t2:basis-4/6 lp:basis-4/6flex flex-col space-y-4'>
                     <div flex-col space-y-4>
@@ -87,10 +87,14 @@ export default function Plan({
                         className='justify-around items-center flex flex-row x-border t1:h-[65px] t1:w-[210px] t2:h-[74\px] t2:w-[248px] lp:h-[85px] lp:w-[260px] p-4 bg-[#FF9C6F] rounded-xl  t1:mt-4 t2:mt-4 lp:mt-14 lp:ml-8'>
                         <h1 className='font-openBold text-[#555555] t1:text-[13px] t2:text-[13px] lp:text-[16px]  font-bold '>Need gap covered</h1>
                         <div
-                            className={`${data.precentageRoundImg} bg-65present bg-no-repeat bg-right t1:h-[61px] t1:w-[61px] t2:h-[61px] t2:w-[61px]`}></div>
+                            className={`bg-no-repeat bg-right t1:h-[61px] t1:w-[61px] t2:h-[61px] t2:w-[61px]`}>
+                                <img src={data.precentageRoundImg} alt=''/>
+
+                            </div>
 
                     </div>
                 </div>
             </div>
-        </div>)
+        </div>
+    )
 }

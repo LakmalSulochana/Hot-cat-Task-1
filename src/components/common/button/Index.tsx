@@ -35,7 +35,7 @@ interface Props {
 
 
 
-  export const FillButton: React.FC<Props> = ({ 
+export const FillButton: React.FC<Props> = ({ 
     border,
     color,
     children,
